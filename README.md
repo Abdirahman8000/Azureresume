@@ -46,3 +46,41 @@ Third command
 git push
 ```
 
+Cosmos DB
+
+Create a Azure Cosmos DB account
+
+- Create Azure Cosmos DB Account - Core (SQL)
+
+- Choose serverless option in this case as it is cheaper, less configuration and can easily be turned off :) 
+
+- Click Data Explorer tap on the left and choose to create a new container.
+ 
+```js
+Database id - Azureresume
+Container id - Counter
+Partition key - /id
+```
+Under counter is item, here will sql query be typed for visitor counter
+
+```js
+{
+    "id": "1"
+    "count": 0,
+}
+```
+- Click safe
+
+```js
+Output : (should be similar to this)
+{
+    "id": "1",
+    "count": 0,
+    "_rid": "L9o3ANHa68cBAAAAAAAAAA==",
+    "_self": "dbs/L9o3AA==/colls/L9o3ANHa68c=/docs/L9o3ANHa68cBAAAAAAAAAA==/",
+    "_etag": "\"d200d372-0000-4700-0000-62d5211a0000\"",
+    "_attachments": "attachments/",
+    "_ts": 1658134810
+}
+```
+
