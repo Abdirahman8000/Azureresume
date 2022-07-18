@@ -1,5 +1,5 @@
 # Azureresume
-My azure resume
+My azure resume (Written in mark down language)
 
 -Frontend contains folder contains the website
 
@@ -28,3 +28,21 @@ const getVisitCount = () => {
     return count;
 }
 ```
+
+-CI/CD workflow with Github. 
+
+First command
+```js
+git add -A
+```
+
+Second command, followed by a message under the 
+```js
+git commit -m "Message inserted here"
+```
+
+Third command
+```js
+git push
+```
+
