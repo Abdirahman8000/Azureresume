@@ -1,0 +1,20 @@
+{
+    "azureFunctions.deploySubpath": "bin/Release/netcoreapp3.1/publish",
+    "azureFunctions.projectLanguage": "C#",
+    "azureFunctions.projectRuntime": "~3",
+    "debug.internalConsoleOptions": "neverOpen",
+    "azureFunctions.preDeployTask": "publish (functions)",
+    "azureFunctions.enableOpenFromPortal": false,
+    "azureFunctions.enableRemoteDebugging": true,
+    "azureFunctions.projectOpenBehavior": "AddToWorkspace",
+    "azureFunctions.showExplorer": false,
+    "azureFunctions.showHiddenStacks": true,
+    "azureFunctions.showReloadTemplates": true,
+    "azureFunctions.templateFilter": "All",
+    "azureResourceGroups.showHiddenTypes": true,
+    "dotnetAcquisitionExtension.existingDotnetPath": [
+        {"extensionId": "msazurermtools.azurerm-vscode-tools", "path": "/usr/bin/dotnet"}
+    ],
+    "omnisharp.dotnetPath": "",
+    "azureFunctions.createPythonVenv": false
+}
